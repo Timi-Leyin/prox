@@ -5,5 +5,6 @@ pub const ABOUT:&str="Prox is a lightweight caching proxy server built with Rust
 pub const INFO:&str="A Caching Proxy Server";
 
 
-pub const MAX_CACHE_SIZE:usize = 1024 * 1024 * 1024;
+// pub const MAX_CACHE_SIZE:usize = 1024 * 1024 * 1024;
 pub const DEFAULT_PORT:u16 = 8080;
+pub const DEFAULT_HOST:&str = "127.0.0.1";
